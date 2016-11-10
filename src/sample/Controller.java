@@ -68,7 +68,7 @@ public class Controller {
             for (int i = 0; i < partsText.length; i++) {
                 String tempS=partsText[i]+"z";
                 if(tempS.length()>2)
-                textArea.setText(textArea.getText() + " " + partsText[i]+" contains "+(tempS.split("а|у|е|о|ы|я|и|і|А|У|Е|О|Ы|Я|И|І|є|Є|ї|Ї").length-1) + " vowels\n");
+                textArea.setText(textArea.getText() + " " + partsText[i]+" contains "+(tempS.split("а|у|е|о|ы|я|и|і|А|У|Е|О|Ы|Я|И|І|є|Є|ї|Ї|ю|Ю").length-1) + " vowels\n");
             }
 
 

@@ -8,10 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
-import java.util.Stack;
 
 public class Controller {
     public TextArea textArea;
@@ -34,7 +31,7 @@ public class Controller {
 
         fileChooser.setTitle("Open Initial File");
 
-        File file = new File("D:\\Programs\\DropBox\\Dropbox\\Homework\\4K\\Групова динаміка\\Program_test");
+        File file = new File("E:\\");
         fileChooser.setInitialDirectory(file);
         file = fileChooser.showOpenDialog(null);
         textField1.setText(file.getPath());

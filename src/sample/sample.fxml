@@ -22,7 +22,7 @@
     </rowConstraints>
     <children>
         <TextArea fx:id="textArea" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-        <VBox spacing="50.0">
+        <VBox spacing="10.0">
             <children>
                 <VBox>
                     <children>
@@ -31,7 +31,10 @@
                     </children>
                 </VBox>
                 <VBox layoutX="20.0" layoutY="142.0" />
-                <Button fx:id="button3" mnemonicParsing="false" onAction="#button3Clicked" text="Произвести проверку" />
+                    <Button fx:id="button3" mnemonicParsing="false" onAction="#button3Clicked" text="Произвести проверку" />
+                    <TextField fx:id="textField2" text="Окончание" />
+                    <TextField fx:id="textField3" text="Количество слогов"/>
+                    <Button fx:id="button4" mnemonicParsing="false" onAction="#button4Clicked" text="Найти окончания" />
             </children>
             <GridPane.margin>
                 <Insets />

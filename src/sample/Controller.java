@@ -95,6 +95,7 @@ public class Controller {
         Files.lines(Paths.get(path), Charset.forName("windows-1251")).forEachOrdered(list::add);
         int count = 0;
         boolean check = true;
+
         for (String s : list) {
             String[] ss = s.split("[ ,;:.!?\\t\\\\s]+");
             for (int i = 0; i < ss.length; i++) {
